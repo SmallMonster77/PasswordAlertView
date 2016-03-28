@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "LrdPasswordAlertView.h"
 
 @interface ViewController ()
 
@@ -22,6 +23,15 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)pop:(id)sender {
+    LrdPasswordAlertView *testView = [[LrdPasswordAlertView alloc] initWithFrame:self.view.bounds];
+    testView.block = ^(NSString *text){
+        NSLog(@"调用了block");
+    };
+    
+    [testView pop];
 }
 
 @end
