@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5BC00911CA8D48E0014AAC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BC00901CA8D48E0014AAC7 /* main.m */; };
+		F5BC00941CA8D48E0014AAC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BC00931CA8D48E0014AAC7 /* AppDelegate.m */; };
+		F5BC00971CA8D48E0014AAC7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BC00961CA8D48E0014AAC7 /* ViewController.m */; };
+		F5BC009A1CA8D48E0014AAC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5BC00981CA8D48E0014AAC7 /* Main.storyboard */; };
+		F5BC009C1CA8D48E0014AAC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5BC009B1CA8D48E0014AAC7 /* Assets.xcassets */; };
+		F5BC009F1CA8D48E0014AAC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5BC009D1CA8D48E0014AAC7 /* LaunchScreen.storyboard */; };
+		F5BC00AA1CA8D48E0014AAC7 /* PasswordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BC00A91CA8D48E0014AAC7 /* PasswordTests.m */; };
+		F5BC00B51CA8D48E0014AAC7 /* PasswordUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BC00B41CA8D48E0014AAC7 /* PasswordUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5BC00A61CA8D48E0014AAC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5BC00841CA8D48E0014AAC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5BC008B1CA8D48E0014AAC7;
+			remoteInfo = Password;
+		};
+		F5BC00B11CA8D48E0014AAC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5BC00841CA8D48E0014AAC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5BC008B1CA8D48E0014AAC7;
+			remoteInfo = Password;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5BC008C1CA8D48E0014AAC7 /* Password.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Password.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5BC00901CA8D48E0014AAC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5BC00921CA8D48E0014AAC7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F5BC00931CA8D48E0014AAC7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F5BC00951CA8D48E0014AAC7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F5BC00961CA8D48E0014AAC7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F5BC00991CA8D48E0014AAC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5BC009B1CA8D48E0014AAC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5BC009E1CA8D48E0014AAC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5BC00A01CA8D48E0014AAC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5BC00A51CA8D48E0014AAC7 /* PasswordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasswordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5BC00A91CA8D48E0014AAC7 /* PasswordTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PasswordTests.m; sourceTree = "<group>"; };
+		F5BC00AB1CA8D48E0014AAC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5BC00B01CA8D48E0014AAC7 /* PasswordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasswordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5BC00B41CA8D48E0014AAC7 /* PasswordUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PasswordUITests.m; sourceTree = "<group>"; };
+		F5BC00B61CA8D48E0014AAC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5BC00891CA8D48E0014AAC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5BC00A21CA8D48E0014AAC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5BC00AD1CA8D48E0014AAC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5BC00831CA8D48E0014AAC7 = {
+			isa = PBXGroup;
+			children = (
+				F5BC008E1CA8D48E0014AAC7 /* Password */,
+				F5BC00A81CA8D48E0014AAC7 /* PasswordTests */,
+				F5BC00B31CA8D48E0014AAC7 /* PasswordUITests */,
+				F5BC008D1CA8D48E0014AAC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5BC008D1CA8D48E0014AAC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5BC008C1CA8D48E0014AAC7 /* Password.app */,
+				F5BC00A51CA8D48E0014AAC7 /* PasswordTests.xctest */,
+				F5BC00B01CA8D48E0014AAC7 /* PasswordUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5BC008E1CA8D48E0014AAC7 /* Password */ = {
+			isa = PBXGroup;
+			children = (
+				F5BC00921CA8D48E0014AAC7 /* AppDelegate.h */,
+				F5BC00931CA8D48E0014AAC7 /* AppDelegate.m */,
+				F5BC00951CA8D48E0014AAC7 /* ViewController.h */,
+				F5BC00961CA8D48E0014AAC7 /* ViewController.m */,
+				F5BC00981CA8D48E0014AAC7 /* Main.storyboard */,
+				F5BC009B1CA8D48E0014AAC7 /* Assets.xcassets */,
+				F5BC009D1CA8D48E0014AAC7 /* LaunchScreen.storyboard */,
+				F5BC00A01CA8D48E0014AAC7 /* Info.plist */,
+				F5BC008F1CA8D48E0014AAC7 /* Supporting Files */,
+			);
+			path = Password;
+			sourceTree = "<group>";
+		};
+		F5BC008F1CA8D48E0014AAC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5BC00901CA8D48E0014AAC7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5BC00A81CA8D48E0014AAC7 /* PasswordTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5BC00A91CA8D48E0014AAC7 /* PasswordTests.m */,
+				F5BC00AB1CA8D48E0014AAC7 /* Info.plist */,
+			);
+			path = PasswordTests;
+			sourceTree = "<group>";
+		};
+		F5BC00B31CA8D48E0014AAC7 /* PasswordUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5BC00B41CA8D48E0014AAC7 /* PasswordUITests.m */,
+				F5BC00B61CA8D48E0014AAC7 /* Info.plist */,
+			);
+			path = PasswordUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5BC008B1CA8D48E0014AAC7 /* Password */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5BC00B91CA8D48E0014AAC7 /* Build configuration list for PBXNativeTarget "Password" */;
+			buildPhases = (
+				F5BC00881CA8D48E0014AAC7 /* Sources */,
+				F5BC00891CA8D48E0014AAC7 /* Frameworks */,
+				F5BC008A1CA8D48E0014AAC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Password;
+			productName = Password;
+			productReference = F5BC008C1CA8D48E0014AAC7 /* Password.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5BC00A41CA8D48E0014AAC7 /* PasswordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5BC00BC1CA8D48E0014AAC7 /* Build configuration list for PBXNativeTarget "PasswordTests" */;
+			buildPhases = (
+				F5BC00A11CA8D48E0014AAC7 /* Sources */,
+				F5BC00A21CA8D48E0014AAC7 /* Frameworks */,
+				F5BC00A31CA8D48E0014AAC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5BC00A71CA8D48E0014AAC7 /* PBXTargetDependency */,
+			);
+			name = PasswordTests;
+			productName = PasswordTests;
+			productReference = F5BC00A51CA8D48E0014AAC7 /* PasswordTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5BC00AF1CA8D48E0014AAC7 /* PasswordUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5BC00BF1CA8D48E0014AAC7 /* Build configuration list for PBXNativeTarget "PasswordUITests" */;
+			buildPhases = (
+				F5BC00AC1CA8D48E0014AAC7 /* Sources */,
+				F5BC00AD1CA8D48E0014AAC7 /* Frameworks */,
+				F5BC00AE1CA8D48E0014AAC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5BC00B21CA8D48E0014AAC7 /* PBXTargetDependency */,
+			);
+			name = PasswordUITests;
+			productName = PasswordUITests;
+			productReference = F5BC00B01CA8D48E0014AAC7 /* PasswordUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5BC00841CA8D48E0014AAC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "键盘上的舞者";
+				TargetAttributes = {
+					F5BC008B1CA8D48E0014AAC7 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					F5BC00A41CA8D48E0014AAC7 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = F5BC008B1CA8D48E0014AAC7;
+					};
+					F5BC00AF1CA8D48E0014AAC7 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = F5BC008B1CA8D48E0014AAC7;
+					};
+				};
+			};
+			buildConfigurationList = F5BC00871CA8D48E0014AAC7 /* Build configuration list for PBXProject "Password" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5BC00831CA8D48E0014AAC7;
+			productRefGroup = F5BC008D1CA8D48E0014AAC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5BC008B1CA8D48E0014AAC7 /* Password */,
+				F5BC00A41CA8D48E0014AAC7 /* PasswordTests */,
+				F5BC00AF1CA8D48E0014AAC7 /* PasswordUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5BC008A1CA8D48E0014AAC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5BC009F1CA8D48E0014AAC7 /* LaunchScreen.storyboard in Resources */,
+				F5BC009C1CA8D48E0014AAC7 /* Assets.xcassets in Resources */,
+				F5BC009A1CA8D48E0014AAC7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5BC00A31CA8D48E0014AAC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5BC00AE1CA8D48E0014AAC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5BC00881CA8D48E0014AAC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5BC00971CA8D48E0014AAC7 /* ViewController.m in Sources */,
+				F5BC00941CA8D48E0014AAC7 /* AppDelegate.m in Sources */,
+				F5BC00911CA8D48E0014AAC7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5BC00A11CA8D48E0014AAC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5BC00AA1CA8D48E0014AAC7 /* PasswordTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5BC00AC1CA8D48E0014AAC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5BC00B51CA8D48E0014AAC7 /* PasswordUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5BC00A71CA8D48E0014AAC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5BC008B1CA8D48E0014AAC7 /* Password */;
+			targetProxy = F5BC00A61CA8D48E0014AAC7 /* PBXContainerItemProxy */;
+		};
+		F5BC00B21CA8D48E0014AAC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5BC008B1CA8D48E0014AAC7 /* Password */;
+			targetProxy = F5BC00B11CA8D48E0014AAC7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5BC00981CA8D48E0014AAC7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5BC00991CA8D48E0014AAC7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5BC009D1CA8D48E0014AAC7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5BC009E1CA8D48E0014AAC7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5BC00B71CA8D48E0014AAC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5BC00B81CA8D48E0014AAC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5BC00BA1CA8D48E0014AAC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Password/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lrd.Password;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F5BC00BB1CA8D48E0014AAC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Password/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lrd.Password;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F5BC00BD1CA8D48E0014AAC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PasswordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lrd.PasswordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Password.app/Password";
+			};
+			name = Debug;
+		};
+		F5BC00BE1CA8D48E0014AAC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PasswordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lrd.PasswordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Password.app/Password";
+			};
+			name = Release;
+		};
+		F5BC00C01CA8D48E0014AAC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PasswordUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lrd.PasswordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Password;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F5BC00C11CA8D48E0014AAC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PasswordUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lrd.PasswordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Password;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5BC00871CA8D48E0014AAC7 /* Build configuration list for PBXProject "Password" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5BC00B71CA8D48E0014AAC7 /* Debug */,
+				F5BC00B81CA8D48E0014AAC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5BC00B91CA8D48E0014AAC7 /* Build configuration list for PBXNativeTarget "Password" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5BC00BA1CA8D48E0014AAC7 /* Debug */,
+				F5BC00BB1CA8D48E0014AAC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F5BC00BC1CA8D48E0014AAC7 /* Build configuration list for PBXNativeTarget "PasswordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5BC00BD1CA8D48E0014AAC7 /* Debug */,
+				F5BC00BE1CA8D48E0014AAC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F5BC00BF1CA8D48E0014AAC7 /* Build configuration list for PBXNativeTarget "PasswordUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5BC00C01CA8D48E0014AAC7 /* Debug */,
+				F5BC00C11CA8D48E0014AAC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5BC00841CA8D48E0014AAC7 /* Project object */;
+}
