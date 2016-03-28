@@ -9,7 +9,7 @@
 将LrdPasswordAlertView这个文件夹拖入到你的项目中去，并且还需要Masonry这个第三方框架。<br>
 block是当密码输入完成后调用的，text则为你输入的密码。<br>
 你可以如下面代码类似去调用它：
-```
+```Objective-C
 - (IBAction)pop:(id)sender {
     LrdPasswordAlertView *testView = [[LrdPasswordAlertView alloc] initWithFrame:self.view.bounds];
     testView.block = ^(NSString *text){
