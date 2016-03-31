@@ -16,6 +16,11 @@ typedef void (^successBlock)(NSString *text);
 //关闭或者密码输入完成时候调用的block
 @property (nonatomic, strong) successBlock block;
 
+//自定义标题,默认标题为:"请输入交易密码"
+@property (nonatomic, strong) NSString *titleName;
+//自定义标题字体,默认为加粗，字号为17号
+@property (nonatomic, assign) CGFloat fontSize;
+
 //弹出
 - (void)pop;
 

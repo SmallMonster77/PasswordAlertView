@@ -27,10 +27,11 @@
 
 - (IBAction)pop:(id)sender {
     LrdPasswordAlertView *testView = [[LrdPasswordAlertView alloc] initWithFrame:self.view.bounds];
+    testView.titleName = @"标题就是要长，就是要这么长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长\n长长长长长长长长长长长\n长长长长长长长长长长长长长";
+    testView.fontSize = 17.f;
     testView.block = ^(NSString *text){
         NSLog(@"调用了block");
     };
-    
     [testView pop];
 }
 

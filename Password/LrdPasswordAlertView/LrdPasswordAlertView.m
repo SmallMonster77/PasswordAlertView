@@ -17,6 +17,7 @@
 
 #define textFieldWidth [UIScreen mainScreen].bounds.size.width - 50 * 2 - 10 * 2
 #define textFieldHeight 35
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
 
 @interface LrdPasswordAlertView () <UITextFieldDelegate>
 
@@ -37,6 +38,44 @@
 
 
 @implementation LrdPasswordAlertView
+
+- (void)setTitleName:(NSString *)titleName {
+    //先获取到原来的lebel的高度
+    CGSize size = CGSizeMake(SCREEN_WIDTH - 50 * 2, CGFLOAT_MAX);
+    NSMutableDictionary *dict = [NSMutableDictionary dictionary];
+    dict[NSFontAttributeName] = [UIFont boldSystemFontOfSize:17];
+    CGSize oldSize = [self.titleLabel.text boundingRectWithSize:size options:NSStringDrawingUsesLineFragmentOrigin attributes:dict context:nil].size;
+    //获取新的label的高度
+    _titleName = titleName;
+    self.titleLabel.text = titleName;
+    UIFont *font = [UIFont boldSystemFontOfSize:17];
+    if (self.fontSize) {
+        font = [UIFont boldSystemFontOfSize:self.fontSize];
+    }
+    dict[NSFontAttributeName] = font;
+    //获取设置字体和字号之后的size
+    CGSize newSize = [self.titleLabel.text boundingRectWithSize:size options:NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingUsesFontLeading attributes:dict context:nil].size;
+    //根据计算的高度更新约束
+    [self.centerView mas_updateConstraints:^(MASConstraintMaker *make) {
+        make.top.equalTo(self.mas_top).offset(150);
+        make.left.equalTo(self.mas_left).offset(50);
+        make.right.equalTo(self.mas_right).offset(-50);
+        make.height.equalTo(@(160 + newSize.height - oldSize.height));
+    }];
+    
+    [self.titleLabel mas_updateConstraints:^(MASConstraintMaker *make) {
+        make.top.equalTo(self.centerView.mas_top).offset(30);
+        make.left.equalTo(self.centerView.mas_left);
+        make.right.equalTo(self.centerView.mas_right);
+        make.height.mas_equalTo(newSize.height);
+    }];
+    
+}
+
+- (void)setFontSize:(CGFloat)fontSize {
+    _fontSize = fontSize;
+    self.titleLabel.font = [UIFont boldSystemFontOfSize:fontSize];
+}
 
 //重写 init 方法
 - (instancetype)initWithFrame:(CGRect)frame {
@@ -60,6 +99,8 @@
         self.titleLabel.textAlignment = NSTextAlignmentCenter;
         self.titleLabel.font = [UIFont boldSystemFontOfSize:17];
         self.titleLabel.textColor = [UIColor blackColor];
+        self.titleLabel.lineBreakMode = NSLineBreakByCharWrapping;
+        [self.titleLabel setNumberOfLines:0];
         [self.centerView addSubview:self.titleLabel];
         
         self.lineLabel = [[UILabel alloc] init];
